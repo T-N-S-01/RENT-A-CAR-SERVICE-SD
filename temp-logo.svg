@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="768" viewBox="0 0 768 768">
+  <rect width="768" height="768" fill="#000000"/>
+
+  <g transform="translate(384 250) scale(0.92)">
+    <path d="M-250 28 C-214 -22,-152 -48,-69 -49 C-1 -49,37 -66,81 -99 C106 -118,136 -124,171 -118 C206 -112,231 -98,248 -72 C256 -59,276 -55,295 -48 C311 -42,319 -32,312 -18 C303 0,282 5,259 2 C245 1,229 4,208 6 C195 7,183 14,176 28 L-250 28 Z" fill="#ffffff"/>
+    <path d="M-235 13 C-205 -5,-170 -17,-128 -19 C-88 -21,-53 -18,-18 -10 C17 -1,50 0,86 -4 C123 -8,159 -22,195 -44 C217 -57,242 -61,268 -58 C279 -56,286 -51,289 -44 C252 -39,220 -24,191 -1 C164 22,126 34,70 35 C15 35,-28 28,-71 20 C-114 12,-162 12,-235 13 Z" fill="#ffffff" opacity="0.95"/>
+    <path d="M-198 33 C-196 56,-181 68,-157 77 C-135 86,-105 87,-70 82 C-87 68,-101 52,-109 31 Z" fill="#ffffff"/>
+    <path d="M-95 29 C-85 52,-65 67,-42 76 C-16 86,11 90,43 87 C31 70,24 53,23 32 Z" fill="#ffffff"/>
+    <path d="M57 30 C66 53,82 69,105 80 C132 92,163 94,196 87 C180 70,172 52,171 31 Z" fill="#ffffff"/>
+    <path d="M-184 20 C-171 2,-145 -13,-110 -20 C-126 -1,-133 12,-137 28 Z" fill="#ffffff"/>
+    <path d="M112 -29 C147 -31,178 -26,207 -15 C184 0,163 4,138 2 Z" fill="#ffffff"/>
+    <path d="M-34 -48 C-5 -55,25 -60,61 -61 C92 -62,123 -59,159 -52 C128 -34,100 -27,73 -27 C31 -26,-1 -31,-34 -48 Z" fill="#ffffff"/>
+    <circle cx="-214" cy="18" r="11" fill="#ffffff"/>
+    <circle cx="229" cy="-5" r="14" fill="#ffffff"/>
+  </g>
+
+  <g font-family="Arial Black, Impact, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="350" y="430" font-size="108" fill="none" stroke="#0d5bd7" stroke-width="8" letter-spacing="-2">SAFE</text>
+    <text x="563" y="430" font-size="108" fill="none" stroke="#ff2d2d" stroke-width="8" letter-spacing="-2">DRIVE</text>
+  </g>
+
+  <g fill="#ffffff" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle" letter-spacing="14">
+    <text x="384" y="512" font-size="28">RENT A CAR SERVICE</text>
+  </g>
+</svg>
