@@ -1,0 +1,123 @@
+// src/components/Footer.scss
+.footer {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.834), rgba(0, 0, 0, 0.9)),
+    url('../img/footer.jpg') center/cover no-repeat;
+  color: #ffffff;
+  margin-top: auto;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(13, 110, 253, 0.15), rgba(0, 0, 0, 0));
+    pointer-events: none;
+  }
+
+  > .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .footer-brand {
+    margin-bottom: 20px;
+    
+    .footer-logo {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #0d6efd;
+      margin-bottom: 5px;
+    }
+    
+    .footer-tagline {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+  }
+  
+  .footer-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    opacity: 0.8;
+  }
+  
+  .footer-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+      width: 40px;
+      height: 3px;
+      background: #0d6efd;
+    }
+  }
+  
+  .contact-info {
+    p {
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+      
+      svg {
+        color: #0d6efd;
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+    
+    a {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      transition: all 0.3s ease;
+      
+      svg {
+        font-size: 1.2rem;
+      }
+      
+      &:hover {
+        background: #0d6efd;
+        transform: translateY(-3px);
+      }
+    }
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    text-align: center;
+    
+    p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.8rem;
+      opacity: 0.6;
+      margin: 0;
+    }
+  }
+}
